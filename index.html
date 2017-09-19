@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Favorite Singer</title>
+	<style type="text/css">
+
+		body{
+			background: #e0e0e0;
+		}
+		h1{
+			color:grey;
+			text-align: center;
+		}
+		ul{
+			background-color: grey;
+			padding:20px;
+			text-align: center;
+		}
+		nav ul li{
+			display:inline;
+			color: white;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color:white;
+			padding:20px;
+		}
+		a{
+			text-decoration: none;
+			color:grey;
+		}
+		nav ul li a:hover{
+			background: black;
+			padding: 20px;
+		}
+		iframe{
+			width:100%;
+			height:600px;
+			margin: 20px 0;
+		}
+		footer{
+			text-align: center;
+			clear:both;
+		}
+		footer h3{
+			color:grey;
+		}
+		#lyricsdiv{
+			height:0;
+		}
+		 #lyrics1 , #lyrics2, #lyrics3, #lyrics4{
+			display:none;
+			
+		}
+	</style>
+	<script>
+		function myfunction1(){
+			var x= document.getElementById("frame");
+			var y= document.getElementById("lyricsdiv");
+
+			for (var z=1;z<5;z++){
+				document.getElementById("lyrics" + z).style.display = 'none';
+			}
+		
+			x.style.width = '60%';
+			x.style.float = 'left';
+			y.style.float = 'left';
+			y.style.margin = '30px';
+			y.style.color= 'grey';
+			document.getElementById("lyrics1").style.display = 'block';
+			}
+		function myfunction2(){
+			var x= document.getElementById("frame");
+			var y= document.getElementById("lyricsdiv");
+
+			for (var z=1;z<5;z++){
+				document.getElementById("lyrics" + z).style.display = 'none';
+			}
+		
+			x.style.width = '60%';
+			x.style.float = 'left';
+			y.style.float = 'left';
+			y.style.margin = '30px';
+			y.style.color= 'grey';
+			document.getElementById("lyrics2").style.display = 'block';
+			}
+		function myfunction3(){
+			var x= document.getElementById("frame");
+			var y= document.getElementById("lyricsdiv");
+
+			for (var z=1;z<5;z++){
+				document.getElementById("lyrics" + z).style.display = 'none';
+			}
+		
+			x.style.width = '60%';
+			x.style.float = 'left';
+			y.style.float = 'left';
+			y.style.margin = '30px';
+			y.style.color= 'grey';
+			document.getElementById("lyrics3").style.display = 'block';
+			}
+		function myfunction4(){
+			var x= document.getElementById("frame");
+			var y= document.getElementById("lyricsdiv");
+
+			for (var z=1;z<5;z++){
+				document.getElementById("lyrics" + z).style.display = 'none';
+			}	
+
+			x.style.width = '60%';
+			x.style.float = 'left';
+			y.style.float = 'left';
+			y.style.margin = '30px';
+			y.style.color= 'grey';
+			document.getElementById("lyrics4").style.display = 'block';
+			}
+		
+	</script>
+</head>
+<body>
+
+<!-- headers -->
+
+<header>
+	<h1><a href="index.html">Buzz</a></h1>
+	<nav>
+		<ul>
+			<li onclick="myfunction1()"><a href="https://www.youtube.com/embed/gszuEGmVWlQ" target="youtubevideo" >The Love</a></li>
+			<li onclick="myfunction2()"><a href="https://www.youtube.com/embed/Omv4bjbpK04" target="youtubevideo">가시</a></li>
+			<li onclick="myfunction3()"><a href="https://www.youtube.com/embed/d99GwIFjvS8" target="youtubevideo">겁쟁이</a></li>
+			<li onclick="myfunction4()"><a href="https://www.youtube.com/embed/49fAhytxAsQ" target="youtubevideo">남자를 몰라</a></li>
+		</ul>
+	</nav>
+</header>
+<hr>
+
+<!-- iframe -->
+
+
+<iframe src="index2.html" frameborder="0" name="youtubevideo" id="frame">
+	Your Video is here
+</iframe>
+<div id="lyricsdiv">
+<pre id="lyrics1">
+늘 그랬었어 넌 참 예뻤어
+말할 때마다 웃는 눈도
+내가 아니어도 누군가
+사랑해 줄 사람 많을 거야
+
+아프지 않아 괜찮을 거야
+잊어줄게 보내줄게
+다신 널 찾지 않아
+
+안녕 내 사랑 돌아 보지마
+너 떠나도 나 울지 않을게
+부족했던 내가 더 많이 미안해
+이렇게 사랑이 끝나간다
+
+</pre>
+<pre id="lyrics2">
+너 없는 지금도 눈부신 하늘과 
+눈부시게 웃는 사람들 
+나의 헤어짐을 모르는 세상은 
+슬프도록 그대로인데 
+
+시간마저 데려가지 못하게 
+나만은 널 보내지 못했나 봐 
+가시처럼 깊게 박힌 기억은 
+아파도 아픈 줄 모르고 	
+</pre>
+<pre id="lyrics3">
+미안합니다 고작 나란 사람이 당신을 미친 듯 사랑합니다 
+기다립니다 잘난 것 하나 없는데 염치없이 당신을 원합니다 
+
+세상을 더 헤매어 봐도 눈을 더 크게 뜨고 찾아도 
+당신은 단 하나란 걸 알아서 내가 꼭 갖고 싶지만 
+
+날 사랑해줘요 날 울리지마요 
+숨 쉬는 것보다 더 잦은 이 말 하나도 
+자신 있게 못하는 늘 숨어만 있는 나는 겁쟁이랍니다 
+
+미안합니다 미련한 미련 때문에 내 손으로 당신을 못 놉니다 
+내 눈에 당신이 박혀서 다른 무엇도 볼 수 없어서 
+가슴에 옮겨와 달라는 말도 이젠 해보고 싶지만 
+</pre>
+<pre id="lyrics4">
+매 번 늦어도 이해할게
+누굴 만났니 먼저 묻지 않을게
+고집스런 내 사랑
+너의 말은 변명이라도 믿고 싶을테니
+눈 비비는척 눈물 닦아내고
+다음약속도 잡을 이유 만들지
+니 맘보다 한숨과 친해져도
+널 보기 위해 난 사니까
+수없이 어긋난데도 기다릴게
+아무리 가슴 아파도 웃어볼게
+떠나선 안돼 서둘러 져버리진 마
+날 밀어내도 깊어지는 이 사랑을 봐
+내입을 막아도 세상이 다 아는데
+왜 너만 몰라 왜 널 지킬 남자를 몰라	
+</pre>
+</div>
+
+
+<!-- footer -->
+
+<footer>
+	<hr>
+	<h3>Created by Jae Won</h3>
+</footer>
+
+</body>
+</html>
